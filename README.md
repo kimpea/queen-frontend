@@ -37,3 +37,15 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
  - [Mobile wireframes](documentation/mobile_wireframes)
  - [Tablet wireframes](documentation/tablet_wireframes)
  - [Desktop wireframes](documentation/desktop_wireframes)
+
+## Features
+
+ - Sample clips - these will allow the users to listen to some of the band's most popular songs.
+ - Embedded music video - this will let the user watch one of the band's most popular music videos.
+ - Gallery - this will allow the user to browse through the band's photos, ranging from photos of the members to their live performances.
+ - Mini biographies - this will let the user read descriptions on each member of the band.
+ - Contact form - this will allow the user to fill in a form letting them hire the band for events.
+ - Newsletter subscription form - users can enter their email address in order to subscribe to a weekly newsletter service.
+ - Social media links - these will direct the users to the band's social media pages, including Facebook, Twitter and YouTube.
+ - List of upcoming events - this will display a list of the band's upcoming tours/concerts.
+
