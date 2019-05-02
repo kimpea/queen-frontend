@@ -3,11 +3,12 @@ body, html {
 }
 
 #home {
-    background-color: red;
+    background-image: url("/static/img/queen_bg.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(30%);
 }
 
 #listen {
