@@ -1,0 +1,9 @@
+# Queen - User Centric Frontend Development Website
+
+## UX
+
+This web application is an frontend website for the famous 1970s rock band 'Queen'. It is designed to allow fans of the band to browse through samples of the band's music, watch a music video, keep up to date with the band's whereabouts and hire the band to perform at events such as weddings and parties. This application is specifically aimed towards the fans of 'Queen' and would be of no interest to any other type of target market.
+
+This type of user will want to be able to listen to some of the band's music and watch one of their music videos. This user will also want to know about upcoming events that the band will take part in, and also any available music for purchase. The user might be interested in finding our more about each member of the band, and therefore would perhaps like to read mini biographies for these members. Additionally, the user will want to keep up to date with the band's upcoming events and can do this by subscribing to a weekly newsletter. Lastly, the user will need a means of being able to hire the band for events such as weddings and parties. My project is a suitable way of achieving this because it provides various audio clips that the user can listen to, a music video embedded into the website that the user can watch, forms for subscribing to the band's newsletter and also hiring the band for events, a gallery full of the band's photos and mini biographies about each member of the band. 
+
+For a more detailed explaination on the UX design phase of this website, please read documentation/ux_planes.pdf. 
