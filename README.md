@@ -30,3 +30,10 @@ As a user type:
  - User 6: I want to subscribe the Queen's weekly newsletter.
  - User 7: I want to find Queen on Facebook and YouTube.
  - User 8: I want to see where Queen are going to perform next, and also buy their latest album.
+
+#### Wireframes
+
+Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have created wireframes for mobile, tablet and desktop views - these are to help me plan out how I want my website to look.
+ - [Mobile wireframes](documentation/mobile_wireframes)
+ - [Tablet wireframes](documentation/tablet_wireframes)
+ - [Desktop wireframes](documentation/desktop_wireframes)
