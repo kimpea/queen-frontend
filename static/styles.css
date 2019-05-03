@@ -19,7 +19,7 @@ body, html {
 .queen-logo img {
     width: 100%;
     height: auto;
-    margin-top: 6rem;
+    margin-top: 12rem;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
@@ -83,8 +83,9 @@ body, html {
 
 #listen {
     padding-top: 4rem;
+    padding-bottom: 5rem;
     background-color: #230f1e;
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,8 +96,25 @@ body, html {
     margin-top: 3rem;
 }
 
-#spotify-play {
-    margin-top: 2rem;
+hr {
+    border-color: #fafafa;
+    border-style: solid none;
+    border-width: 1px 0;
+    width: 50%;
+}
+
+.spotify-flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.spotify-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.spotify-container {
+    margin-left: 10rem;
 }
 
 /*-- Watch Section --*/
@@ -231,6 +249,11 @@ body, html {
     .intro-button a {
         margin-top: 2rem;
     }
+    
+    /*-- Listen --*/
+    #spotify-play {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 740px) and (orientation: landscape){
@@ -241,6 +264,14 @@ body, html {
     }
     .intro-button a {
         margin-top: 2rem;
+    }
+    
+    /*-- Listen --*/
+    .listen-heading {
+        margin-top: 1rem;
+    }
+    #spotify-play {
+        width: 100%;
     }
 }
 
@@ -298,7 +329,7 @@ body, html {
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
-        margin-top: 2rem !important;
+        margin-top: 3rem !important;
     }
     .intro-button a {
         margin-top: 2rem;
