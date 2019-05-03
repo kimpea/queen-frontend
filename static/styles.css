@@ -88,7 +88,7 @@ body, html {
     background-size: cover;
 }
 
-.section-heading {
+.listen-heading {
     color: #fafafa;
     margin-top: 3rem;
 }
@@ -101,11 +101,20 @@ body, html {
 
 #watch {
     padding-top: 3.6rem;
-    background-color: green;
+    background-image: url("https://cdn.cnn.com/cnn/interactive/2018/11/opinions/queen-live-aid-cnnphotos/media/01.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.watch-heading {
+    color: #000;
+    margin-top: 3rem;
+}
+
+#youtube-video {
+    margin-top: 2rem;
 }
 
 /*-- Shows Section --*/
