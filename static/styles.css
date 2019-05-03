@@ -18,7 +18,7 @@ body, html {
 
 .queen-logo img {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-top: 12rem;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
@@ -28,6 +28,7 @@ body, html {
 
 .intro-button a {
     margin-top: 7rem;
+    font-size: 2rem;
     animation: fadein 4s;
 }
 
@@ -180,12 +181,12 @@ hr {
 
 /*-- Media Queries (ordered by device screen size) --*/
 
-/*-- Nokia 8110 4G --*/
+/*-- Smaller Mobile Screens --*/
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: portrait){
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
-        margin-top: 3rem;
+        margin-top: 8rem;
     }
     .intro-button a {
         margin-top: 2rem;
@@ -218,194 +219,72 @@ hr {
 }
 
 
-/*-- iPhone 5/SE --*/
-@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait){
+/*-- Larger Mobile Screens --*/
+@media screen and (min-width: 320px) and (max-width: 896px) and (orientation: portrait){
     /*-- Home --*/
     .queen-logo img {
-        width: 75%;
-        margin-top: 10rem;
+        width: 85%;
     }
     .intro-button a {
         margin-top: 2rem;
-    }
-    /*-- Watch --*/
-    #watch {
-        padding-bottom: 10rem;
-    }
-    #youtube-video {
-        height: 15rem;
+        font-size: 1.5rem;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape){
+@media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
-        margin-top: 2rem !important;
-    }
-    .intro-button a {
-        margin-top: 1rem;
-    }
-}
-
-
-/*-- Galaxy Note 3, Galaxy S5, Galaxy S9/S9+, iPhone 6/7/8, iPhone 6/7/8 Plus, Microsoft Lumia 550/950  --*/
-@media screen and (min-width: 360px) and (max-width: 740px) and (orientation: portrait){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 11rem;
+        margin-top: 2rem;
     }
     .intro-button a {
         margin-top: 2rem;
-    }
-    
-    /*-- Watch --*/
-    #watch {
-        padding-bottom: 7rem;
-    }
-    .watch-heading {
-        margin-top: 1rem;
-    }
-    #youtube-video {
-        height: 16rem;
-    }
-}
-
-@media screen and (min-width: 360px) and (max-width: 740px) and (orientation: landscape){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 3rem;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-    
-    /*-- Listen --*/
-    .listen-heading {
-        margin-top: 1rem;
-    }
-    /*-- Watch --*/
-    .watch-heading {
-        margin-top: 0.5rem;
-    }
-    #youtube-video {
-        width: 75%;
-        height: 16rem;
-        margin-bottom: 4rem;
+        font-size: 1rem;
     }
 }
 
 
-/*-- LG Optimus L70 --*/
-@media screen and (min-width: 384px) and (max-width: 640px) and (orientation: portrait){
+/*-- Tablets --*/
+@media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : portrait){
     /*-- Home --*/
     .queen-logo img {
-        width: 75%;
-        margin-top: 11rem !important;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-}
-
-
-/*-- iPhone X/XS --*/
-@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 15rem;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 1.5rem !important;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-}
-
-
-/*-- Galaxy Note 9, iPhone XR, iPhone XS Max, LG Optimus L70 (Landscape), Nexus 5X, Nexus 6P, Pixel 2, Pixel 2 XL --*/
-@media screen and (min-width: 411px) and (max-width: 896px) and (orientation: portrait){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 15rem !important;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-}
-
-@media screen and (min-width: 411px) and (max-width: 896px) and (orientation: landscape){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 3rem !important;
-    }
-    .intro-button a {
-        margin-top: 2rem;
-    }
-    /*-- Watch --*/
-    #youtube-video {
-        height: 15rem;
-    }
-}
-
-
-/*-- iPad, iPad Pro (10.5inch), iPad Mini, Nexus 10, Kindle Fire HDX --*/
-@media (min-width: 768px) and (max-width: 1280px) and (orientation : portrait){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
+        width: 100%;
         margin-top: 20rem;
     }
     .intro-button a {
+        margin-top: 9rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
         margin-top: 3rem;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1280px) and (orientation : landscape){
+
+/*-- Larger Tablets --*/
+@media screen and (min-width: 1024px) and (max-width: 1337px) and (orientation : portrait){
     /*-- Home --*/
     .queen-logo img {
-        width: 75%;
-        margin-top: 10rem;
+        width: 85%;
     }
     .intro-button a {
-        margin-top: 3rem;
+        margin-top: 9rem;
     }
 }
 
-
-/*-- iPad Pro (12.9inch) --*/
-@media (min-width: 1024px) and (max-width: 1337px) and (orientation : portrait){
+@media screen and (min-width: 1024px) and (max-width: 1337px) and (orientation : landscape){
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
-        margin-top: 20rem;
+        margin-top: 9rem;
     }
     .intro-button a {
-        margin-top: 3rem;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1337px) and (orientation : landscape){
-    /*-- Home --*/
-    .queen-logo img {
-        width: 75%;
-        margin-top: 15rem;
-    }
-    .intro-button a {
-        margin-top: 3rem;
+        margin-top: 4rem;
+        font-size: 2rem;
     }
 }
