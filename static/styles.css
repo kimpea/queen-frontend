@@ -190,6 +190,10 @@ hr {
         margin-top: 2rem;
         font-size: 14px;
     }
+    /*-- Listen --*/
+    .spotify-player {
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
