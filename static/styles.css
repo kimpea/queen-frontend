@@ -7,6 +7,7 @@ body, html {
 /*-- Home Section --*/
 
 #home {
+    padding-top: 4rem;
     background-image: url("/static/img/queen_bg.png");
     height: 100%;
     background-position: center;
@@ -16,7 +17,7 @@ body, html {
 
 
 .queen-logo img {
-    margin-top: 15rem;
+    margin-top: 6rem;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
@@ -79,6 +80,7 @@ body, html {
 /*-- Listen Section --*/
 
 #listen {
+    padding-top: 4rem;
     background-color: #230f1e;
     height: 100%;
     background-position: center;
@@ -86,9 +88,19 @@ body, html {
     background-size: cover;
 }
 
+.section-heading {
+    color: #fafafa;
+    margin-top: 3rem;
+}
+
+#spotify-play {
+    margin-top: 2rem;
+}
+
 /*-- Watch Section --*/
 
 #watch {
+    padding-top: 3.6rem;
     background-color: green;
     height: 100%;
     background-position: center;
