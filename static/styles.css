@@ -17,6 +17,8 @@ body, html {
 
 
 .queen-logo img {
+    width: 100%;
+    height: auto;
     margin-top: 6rem;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
@@ -167,23 +169,186 @@ body, html {
     background-size: cover;
 }
 
-/*-- Media Queries --*/
+/*-- Media Queries (ordered by device screen size) --*/
 
-@media screen and (min-width: 320px) and (max-width: 740px) and (orientation : portrait){
+/*-- Nokia 8110 4G --*/
+@media screen and (min-width: 240px) and (max-width: 320px) and (orientation: portrait){
     /*-- Home --*/
     .queen-logo img {
-        max-width: 75%;
-        margin-top: 10rem;
+        width: 75%;
+        margin-top: 3rem;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+        font-size: 14px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 740px) and (orientation : landscape){
+@media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
     /*-- Home --*/
     .queen-logo img {
-        max-width: 65%;
+        width: 75%;
+        margin-top: 2rem;
     }
-    
+    .intro-button a {
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+}
+
+
+/*-- iPhone 5/SE --*/
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 10rem;
+    }
     .intro-button a {
         margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 2rem !important;
+    }
+    .intro-button a {
+        margin-top: 1rem;
+    }
+}
+
+
+/*-- Galaxy Note 3, Galaxy S5, Galaxy S9/S9+, iPhone 6/7/8, iPhone 6/7/8 Plus, Microsoft Lumia 550/950  --*/
+@media screen and (min-width: 360px) and (max-width: 740px) and (orientation: portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 11rem;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) and (orientation: landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 3rem;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+
+/*-- LG Optimus L70 --*/
+@media screen and (min-width: 384px) and (max-width: 640px) and (orientation: portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 11rem !important;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+
+/*-- iPhone X/XS --*/
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 15rem;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 1.5rem !important;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+
+/*-- Galaxy Note 9, iPhone XR, iPhone XS Max, LG Optimus L70 (Landscape), Nexus 5X, Nexus 6P, Pixel 2, Pixel 2 XL --*/
+@media screen and (min-width: 411px) and (max-width: 896px) and (orientation: portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 15rem !important;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 896px) and (orientation: landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 2rem !important;
+    }
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
+
+
+/*-- iPad, iPad Pro (10.5inch), iPad Mini, Nexus 10, Kindle Fire HDX --*/
+@media (min-width: 768px) and (max-width: 1280px) and (orientation : portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 20rem;
+    }
+    .intro-button a {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) and (orientation : landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 10rem;
+    }
+    .intro-button a {
+        margin-top: 3rem;
+    }
+}
+
+
+/*-- iPad Pro (12.9inch) --*/
+@media (min-width: 1024px) and (max-width: 1337px) and (orientation : portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 20rem;
+    }
+    .intro-button a {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1337px) and (orientation : landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        width: 75%;
+        margin-top: 15rem;
+    }
+    .intro-button a {
+        margin-top: 3rem;
     }
 }
