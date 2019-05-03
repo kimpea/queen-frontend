@@ -49,3 +49,6 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
  - Social media links - these will direct the users to the band's social media pages, including Facebook, Twitter and YouTube.
  - List of upcoming events - this will display a list of the band's upcoming tours/concerts.
 
+# Acknowledgements
+
+https://embedresponsively.com/
