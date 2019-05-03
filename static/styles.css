@@ -166,3 +166,24 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*-- Media Queries --*/
+
+@media screen and (min-width: 320px) and (max-width: 740px) and (orientation : portrait){
+    /*-- Home --*/
+    .queen-logo img {
+        max-width: 75%;
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 740px) and (orientation : landscape){
+    /*-- Home --*/
+    .queen-logo img {
+        max-width: 65%;
+    }
+    
+    .intro-button a {
+        margin-top: 2rem;
+    }
+}
