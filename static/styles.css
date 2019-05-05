@@ -220,11 +220,24 @@ table a:hover {
 /*-- About Section --*/
 
 #about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     background-image: url("/static/img/about_bg.jpg");
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-col {
+    background-color: #000;
+    color: #fafafa;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-col img {
+    width: 100%;
 }
 
 /*-- Gallery Section --*/
