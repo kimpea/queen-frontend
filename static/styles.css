@@ -179,6 +179,11 @@ table a {
     color: #DCC278;
 }
 
+table a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
 .shows-tabs .nav-link {
     color: #DCC278;
     font-weight: bold;
