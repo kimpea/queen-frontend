@@ -118,7 +118,7 @@ hr {
 #cinema {
     padding-top: 4rem;
     padding-bottom: 5rem;
-    background-image: url("https://cdn.cnn.com/cnn/interactive/2018/11/opinions/queen-live-aid-cnnphotos/media/01.jpg");
+    background-image: url("/static/img/cinema_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +220,7 @@ table a:hover {
 /*-- About Section --*/
 
 #about {
-    background-color: orange;
+    background-image: url("/static/img/about_bg.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
