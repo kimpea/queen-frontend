@@ -8,6 +8,7 @@ nav img {
     width: 10%;
 }
 
+
 /*-- Home Section --*/
 
 #home {
@@ -150,8 +151,9 @@ hr {
 
 #shows {
     padding-top: 2.5rem;
+    padding-bottom: 3rem;
     background-color: #230f1e;
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,6 +205,16 @@ table a:hover {
 
 .album-row {
     padding-bottom: 1rem;
+}
+
+.album-row img {
+    width: 60%;
+}
+
+.album-list ol {
+    margin-top: 2rem;
+    color: #fafafa;
+    font-size: 1.5rem;
 }
 
 /*-- About Section --*/
@@ -262,6 +274,10 @@ table a:hover {
     .spotify-player {
         padding: 0;
     }
+    /*-- Shows --*/
+    table {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
@@ -272,6 +288,10 @@ table a:hover {
     }
     .intro-button a {
         margin-top: 1rem;
+        font-size: 14px;
+    }
+    /*-- Shows --*/
+    table {
         font-size: 14px;
     }
 }
@@ -290,6 +310,10 @@ table a:hover {
     /*-- Auditorium --*/
     .auditorium-heading {
         margin-top: 1rem;
+    }
+    /*-- Shows --*/
+    table {
+        font-size: 14px;
     }
 }
 
