@@ -4,8 +4,19 @@ body, html {
     height: 100%;
 }
 
+nav a {
+    padding: 0;
+    margin: 0;
+}
+
 nav img {
-    width: 10%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    width: 9rem;
 }
 
 
@@ -209,13 +220,15 @@ table a:hover {
 }
 
 .album-row img {
-    width: 60%;
+    width: 15rem;
 }
 
-.album-list ol {
+.album-list ul {
     margin-top: 2rem;
     color: #fafafa;
     font-size: 1.5rem;
+    list-style-type: none;
+    padding: 0;
 }
 
 /*-- About Section --*/
@@ -275,9 +288,15 @@ table a:hover {
 
 /*-- Smaller Mobile Screens --*/
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: portrait){
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
-        width: 75%;
+        width: 35%;
         margin-top: 8rem;
     }
     .intro-button a {
@@ -292,9 +311,19 @@ table a:hover {
     table {
         font-size: 14px;
     }
+    .album-list ol {
+        padding-left: 10px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
@@ -308,11 +337,21 @@ table a:hover {
     table {
         font-size: 14px;
     }
+    .album-list ol {
+        padding-left: 10px;
+        font-size: 0.8rem;
+    }
 }
 
 
 /*-- Larger Mobile Screens --*/
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: portrait){
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
         width: 85%;
@@ -326,12 +365,21 @@ table a:hover {
         margin-top: 1rem;
     }
     /*-- Shows --*/
-    table {
+    table td {
         font-size: 14px;
+    }
+    .album-list ul {
+        font-size: 16px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
@@ -357,6 +405,12 @@ table a:hover {
 
 /*-- Tablets --*/
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : portrait){
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
         width: 100%;
@@ -369,6 +423,12 @@ table a:hover {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : landscape){
+    h1 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
     /*-- Home --*/
     .queen-logo img {
         width: 75%;
