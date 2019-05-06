@@ -296,7 +296,7 @@ table a:hover {
 
 /*-- Smaller Mobile Screens --*/
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: portrait){
-    h1 {
+    h1, h3 {
         font-size: 1.2rem;
     }
     p {
@@ -330,7 +330,7 @@ table a:hover {
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
-    h1 {
+    h1, h3 {
         font-size: 1.2rem;
     }
     p {
@@ -362,7 +362,7 @@ table a:hover {
 
 /*-- Larger Mobile Screens --*/
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: portrait){
-    h1 {
+    h1, h3 {
         font-size: 1.5rem;
     }
     p {
@@ -394,7 +394,7 @@ table a:hover {
 }
 
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
-    h1 {
+    h1, h3 {
         font-size: 1.5rem;
     }
     p {
@@ -429,7 +429,7 @@ table a:hover {
 
 /*-- Tablets --*/
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : portrait){
-    h1 {
+    h1, h3 {
         font-size: 2rem;
     }
     p {
@@ -444,15 +444,11 @@ table a:hover {
         margin-top: 9rem;
         font-size: 2rem;
     }
-    /*-- About --*/
-    .about-col img {
-        width: 75%;
-    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : landscape){
-    h1 {
-        font-size: 2rem;
+    h1, h3 {
+        font-size: 1.5rem;
     }
     p {
         font-size: 1rem;
@@ -466,9 +462,11 @@ table a:hover {
     .auditorium-heading {
         margin-top: 2rem;
     }
-    /*-- About --*/
-    .about-col img {
-        width: 75%;
+    table {
+        font-size: 14px;
+    }
+    .album-list ul {
+        font-size: 16px;
     }
 }
 
