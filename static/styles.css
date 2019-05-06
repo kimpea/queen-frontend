@@ -254,6 +254,14 @@ table a:hover {
     width: 100%;
 }
 
+.member-description {
+    padding: 0px 10px 0px 0px;
+}
+
+.member-image {
+    padding: 0px 0px 0px 10px;
+}
+
 /*-- Gallery Section --*/
 
 #gallery {
@@ -315,6 +323,10 @@ table a:hover {
         padding-left: 10px;
         font-size: 10px;
     }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 240px) and (max-width: 320px) and (orientation: landscape){
@@ -340,6 +352,10 @@ table a:hover {
     .album-list ol {
         padding-left: 10px;
         font-size: 0.8rem;
+    }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
     }
 }
 
@@ -371,11 +387,15 @@ table a:hover {
     .album-list ul {
         font-size: 16px;
     }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     p {
         font-size: 1rem;
@@ -400,13 +420,17 @@ table a:hover {
     .cinema-heading {
         margin-top: 0.5rem;
     }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
+    }
 }
 
 
 /*-- Tablets --*/
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : portrait){
     h1 {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     p {
         font-size: 1rem;
@@ -420,11 +444,15 @@ table a:hover {
         margin-top: 9rem;
         font-size: 2rem;
     }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1280px) and (orientation : landscape){
     h1 {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     p {
         font-size: 1rem;
@@ -437,6 +465,10 @@ table a:hover {
     /*-- Auditorium --*/
     .auditorium-heading {
         margin-top: 2rem;
+    }
+    /*-- About --*/
+    .about-col img {
+        width: 75%;
     }
 }
 
