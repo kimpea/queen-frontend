@@ -265,11 +265,23 @@ table a:hover {
 /*-- Gallery Section --*/
 
 #gallery {
-    background-color: purple;
-    height: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #230f1e;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.gallery-heading {
+    color: #fafafa;
+    margin-top: 3rem;
+}
+
+.carousel, .carousel img {
+    width: 800px !important;
+    height: auto !important;
 }
 
 /*-- Contact Section --*/
