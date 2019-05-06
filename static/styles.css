@@ -116,8 +116,9 @@ hr {
 /*-- Cinema Section --*/
 
 #cinema {
+    height: auto;
     padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     background-image: url("/static/img/cinema_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
