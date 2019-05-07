@@ -133,7 +133,7 @@ hr {
     height: auto;
     padding-top: 4rem;
     padding-bottom: 10rem;
-    background-image: url("/static/img/cinema_bg.jpg");
+    background-image: url("/queen-frontend/static/img/cinema_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +240,7 @@ table a:hover {
 #about {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-image: url("/static/img/about_bg.jpg");
+    background-image: url("/queen-frontend/static/img/about_bg.jpg");
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -304,7 +304,7 @@ table a:hover {
 #forms {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-image: url("/static/img/forms_bg.jpg");
+    background-image: url("/queen-frontend/static/img/forms_bg.jpg");
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
