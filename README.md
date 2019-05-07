@@ -144,7 +144,9 @@ After using the [official HTML code validation service](https://validator.w3.org
 ### To run this locally...
 
 1. Create a new workspace in Cloud9 with a workspace name and description.
-2. Clone the project with either 
+2. Clone the project with either `https://github.com/kimpea/queen-frontend.git` or `git@github.com:kimpea/queen-frontend.git` in the 'Clone from Git' field.
+3. Select a blank template and once the workspace has loaded, open the index.html tab and click 'Run'. 
+4. Click on the link which appears in the terminal for index.html to view the website.
 
 # Credits, Acknowledgements and Media
 
