@@ -2,9 +2,9 @@
 
 ## UX
 
-This web application is an frontend website for the famous 1970s rock band 'Queen'. It is designed to allow fans of the band to browse through samples of the band's music, watch a music video, keep up to date with the band's whereabouts and hire the band to perform at events such as weddings and parties. This application is specifically aimed towards the fans of 'Queen' and would be of no interest to any other type of target market.
+This web application is a frontend website for the famous 1970s rock band 'Queen'. It is designed to allow fans of the band to browse through samples of the band's music, watch a music video, keep up to date with the band's whereabouts and hire the band to perform at events such as weddings and parties. This application is specifically aimed towards the fans of 'Queen' and would be of no interest to any other type of target market.
 
-This type of user will want to be able to listen to some of the band's music and watch one of their music videos. This user will also want to know about upcoming events that the band will take part in, and also any available music for purchase. The user might be interested in finding our more about each member of the band, and therefore would perhaps like to read mini biographies for these members. Additionally, the user will want to keep up to date with the band's upcoming events and can do this by subscribing to a weekly newsletter. Lastly, the user will need a means of being able to hire the band for events such as weddings and parties. My project is a suitable way of achieving this because it provides various audio clips that the user can listen to, a music video embedded into the website that the user can watch, forms for subscribing to the band's newsletter and also hiring the band for events, a gallery full of the band's photos and mini biographies about each member of the band. 
+This type of user will want to be able to listen to some of the band's music and watch one of their music videos. This user will also want to know about upcoming events that the band will take part in, and also any available music for purchase. The user might be interested in finding out more about each member of the band, and therefore would perhaps like to read mini biographies for these members. Additionally, the user will want to keep up to date with the band's upcoming events and can do this by subscribing to a weekly newsletter. Lastly, the user will need a means of being able to hire the band for events such as weddings and parties. My project is a suitable way of achieving this because it provides various audio clips that the user can listen to, a music video embedded into the website that the user can watch, forms for subscribing to the band's newsletter and also hiring the band for events, a gallery full of the band's photos and mini biographies about each member of the band. 
 
 For a more detailed explaination on the UX design phase of this website, please read [documentation/ux_planes.pdf](documentation/ux_planes.pdf). 
 
@@ -75,7 +75,7 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
 - [Spotify Play Button](https://developer.spotify.com/documentation/widgets/generate/play-button/)
     - This project uses **Spotify Play Button** for the embedded audio clips in the Auditorium section.
 - [JavaScript](https://www.javascript.com/)
-    - This project uses **JavaScript** to provide the functionality for the W3.CSS Slideshow feature.
+    - This project uses basic **JavaScript** to provide the functionality for the W3.CSS Slideshow feature.
 - [Font Awesome](https://fontawesome.com/)
     - This project uses **Font Awesome** to provide icons for the application.
 - [Wireframes.cc](https://wireframe.cc/)
@@ -133,7 +133,7 @@ I have tested out the website on both Google Chrome and Mozilla Firefox - the we
 
 ### Code Validation
 
-After using the [official HTML code validation service](https://validator.w3.org/), a few errors had been found. The validator states that the allowtransparency and frameborder attributes for the iframe element are obselete, however, removing these makes the appearance of the audio clips and embedded video look inconsistent and untidy - as a result of this, I have left these attributes alone. The [officla CSS validation service](https://jigsaw.w3.org/css-validator/) revealed no errors within my CSS code.
+After using the [official HTML code validation service](https://validator.w3.org/), a few errors had been found. The validator states that the allowtransparency and frameborder attributes for the iframe element are obselete, however, removing these makes the appearance of the audio clips and embedded video look inconsistent and untidy - as a result of this, I have left these attributes alone. The [official CSS validation service](https://jigsaw.w3.org/css-validator/) revealed no errors within my CSS code.
 
 ### Bugs 
 
@@ -148,11 +148,11 @@ After using the [official HTML code validation service](https://validator.w3.org
 3. Select a blank template and once the workspace has loaded, open the index.html tab and click 'Run'. 
 4. Click on the link which appears in the terminal for index.html to view the website.
 
-### Production vs. Deployed
+### Production vs. Deployed Version
+
+I have deployed the application through GitHub Pages. The live demo of the website can be found [here](https://kimpea.github.io/queen-frontend/#home).
 
 Whilst the website was in production mode, the sources for all images did not require the /queen-frontend/, however, in the deployed version, for the images to appear in GitHub pages, I had to place /queen-frontend/ in front of all images sources. I also had to do the same for the external CSS and JavaScript files. 
-
-The live demo of the website can be found [here](https://kimpea.github.io/queen-frontend/#home).
 
 # Credits, Acknowledgements and Media
 
