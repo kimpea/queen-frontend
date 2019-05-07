@@ -22,10 +22,10 @@ As a user type:
 
 #### Real-life User Stories
 
- - User 1: I want to listen to a sample of We Will Rock You.
- - User 2: I want to watch the music video for I Want To Break Free.
+ - User 1: I want to listen to a sample of Radio Ga Ga.
+ - User 2: I want to watch the music video for Another One Bites The Dust.
  - User 3: I want to find out more about Freddie Mercury.
- - User 4: I want to see some photos of Queen performing at Live Aid in 1985.
+ - User 4: I want to see some photos of Queen performing at live.
  - User 5: I want to hire Queen to perform at my cousin's wedding!
  - User 6: I want to subscribe the Queen's weekly newsletter.
  - User 7: I want to find Queen on Facebook and YouTube.
@@ -44,10 +44,20 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
  - Embedded music video - this will let the user watch one of the band's most popular music videos.
  - Gallery - this will allow the user to browse through the band's photos, ranging from photos of the members to their live performances.
  - Mini biographies - this will let the user read descriptions on each member of the band.
- - Contact form - this will allow the user to fill in a form letting them hire the band for events.
- - Newsletter subscription form - users can enter their email address in order to subscribe to a weekly newsletter service.
+ - Contact form (no backend functionality) - this will allow the user to fill in a form letting them hire the band for events.
+ - Newsletter subscription form (no backend functionality) - users can enter their email address in order to subscribe to a weekly newsletter service.
  - Social media links - these will direct the users to the band's social media pages, including Facebook, Twitter and YouTube.
  - List of upcoming events - this will display a list of the band's upcoming tours/concerts.
+
+### Existing Features 
+ - Audio/sample clips - User 1 is able to listen to a sample of Radio Ga Ga thanks to the embedded Spotify Play Button feature in the auditorium section.
+ - Embedded music video - User 2 can watch a live performance of Another One Bites The Dust. When the band updates this website frequently, they can change the video on display to any video of their choice, e.g. a music video or an interview with the band.
+ - Mini biographies - User 3 can find out information about Freddie Mercury, and any other band member. 
+ - Gallery - This allows User 4 to view various images of Queen performing live. As with the embedded video, images can be added by the band to expand the gallery.
+ - Contact form - This will allow User 5 to contact the band regarding hiring them to perform at their cousin's wedding.
+ - Newsletter subscription form - User 6 is able to enter their email address into the subscription form and sign up for a weekly newsletter received via email.
+ - Social media links - This will allow User 7 to find the band on Facebook and Youtube, as well as Twitter and Spotify.
+ - List of upcoming events - User 8 is able to see where Queen is going to perform next and also buy their latest album.
 
 # Credits, Acknowledgements and Media
 
