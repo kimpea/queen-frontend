@@ -127,6 +127,10 @@ Below are scenarios which a user may experience while navigating the website. Th
     1. Click on 'Contact' in the navigation bar and be taken to the last section of the website. Social media links are in the footer.
     2. Click on the Facebook, Twitter, YouTube and Spotify icons and be taken to the specific links for each social platform. 
 
+### Responsive Testing
+
+I have tested out the website on both Google Chrome and Mozilla Firefox - the website functions well on both web browsers. I have used Chrome's Developer Tools and Firefox's Developer Tools to try out the website on different device screen sizes, from mobile to desktop. The website functions well on most screen sizes, especially for the iPhone 6/7/8 and iPad. I have also tested out the website on an Asus Zenfone 3 Max and an Amazon Kindle Fire - as expected, it functions normally.
+
 # Credits, Acknowledgements and Media
 
 The Queen logo which I used for the navbar and home section can be found [here](https://upload.wikimedia.org/wikipedia/commons/7/74/Queen_Logo.png).
