@@ -266,6 +266,10 @@ table a:hover {
     padding: 0px 10px 0px 0px;
 }
 
+#about a {
+    color: #fafafa;
+}
+
 #about p a {
     color: #DCC278;
 }
