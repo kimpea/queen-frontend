@@ -148,6 +148,10 @@ After using the [official HTML code validation service](https://validator.w3.org
 3. Select a blank template and once the workspace has loaded, open the index.html tab and click 'Run'. 
 4. Click on the link which appears in the terminal for index.html to view the website.
 
+### Production vs. Deployed
+
+Whilst the website was in production mode, the sources for all images did not require the /queen-frontend/, however, in the deployed version, for the images to appear in GitHub pages, I had to place /queen-frontend/ in front of all images sources. I also had to do the same for the external JavaScript file. 
+
 # Credits, Acknowledgements and Media
 
 The Queen logo which I used for the navbar and home section can be found [here](https://upload.wikimedia.org/wikipedia/commons/7/74/Queen_Logo.png).
