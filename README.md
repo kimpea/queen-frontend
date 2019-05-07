@@ -53,4 +53,20 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
 
 http://www.queenonline.com/
 https://embedresponsively.com/
-https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+
+For the gallery section, I was originally going to use Bootstrap 4's carousel feature, however after complications I encountered whilst modifying the CSS, I decided to use [W3.CSS's slideshow feature](https://www.w3schools.com/w3css/w3css_slideshow.asp) instead. Images used for this slideshow are referenced here:
+ - [Slide 1](http://www.queenonline.com/global/assets/modules/site/images/gallery/1975_001.jpg)
+ - [Slide 2](http://www.queenonline.com/global/assets/modules/site/images/gallery/1976_002.jpg)
+ - [Slide 3](http://www.queenonline.com/global/assets/modules/site/images/gallery/1977_002.jpg)
+ - [Slide 4](http://www.queenonline.com/global/assets/modules/site/images/gallery/1978_003.jpg)
+ - [Slide 5](http://www.queenonline.com/global/assets/modules/site/images/gallery/1980_003.jpg)
+ - [Slide 6](http://www.queenonline.com/global/assets/modules/site/images/gallery/1981_002.jpg)
+ - [Slide 7](http://www.queenonline.com/global/assets/modules/site/images/gallery/1981_004.jpg)
+ - [Slide 8](http://www.queenonline.com/global/assets/modules/site/images/gallery/1984_008.jpg)
+ - [Slide 9](http://www.queenonline.com/global/assets/modules/site/images/gallery/1985_006.jpg)
+ - [Slide 10](http://www.queenonline.com/global/assets/modules/site/images/gallery/1986_006.jpg)
+ - [Slide 11](http://www.queenonline.com/global/assets/modules/site/images/gallery/1986_012.jpg)
+ - [Slide 12](http://www.queenonline.com/global/assets/modules/site/images/gallery/1986_016.jpg)
+ - [Slide 13](http://www.queenonline.com/global/assets/modules/site/images/gallery/1986_028.jpg)
+ - [Slide 14](http://www.queenonline.com/global/assets/modules/site/images/gallery/2014.JPG)
