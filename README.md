@@ -49,11 +49,23 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
  - Social media links - these will direct the users to the band's social media pages, including Facebook, Twitter and YouTube.
  - List of upcoming events - this will display a list of the band's upcoming tours/concerts.
 
-# Credits / Acknowledgements
+# Credits, Acknowledgements and Media
 
-http://www.queenonline.com/
-https://embedresponsively.com/
+The Queen logo which I used for the navbar and home section can be found [here](https://upload.wikimedia.org/wikipedia/commons/7/74/Queen_Logo.png).
+The album cover which I used in the shows section can be found [here](https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image500/.f795-N2T/SharedImage-13049.jpg?t=e8cd0e49e6e9cd5df0d5).
+The audio clips are made by the original artists themselves and have been embedded through [Spotify's Play Button](https://developer.spotify.com/documentation/widgets/generate/play-button/) feature.
+The music video found in the cinema section can be found [here](https://youtu.be/NVIbCvfkO3E). I used [Embed Responsively](https://embedresponsively.com/) to help me embed the YouTube video into my code and make it responsive on all device screen sizes.
 
+Background images that I have used are linked here:
+ - [Home section background](https://www.rollingstone.com/wp-content/uploads/2018/06/queen-news-of-the-world-opener-c5bda6ed-0bdf-42c0-8d93-7b29ec5c4259.jpg?crop=900:600&width=440)
+ - [Music video section background](https://cdn.cnn.com/cnn/interactive/2018/11/opinions/queen-live-aid-cnnphotos/media/01.jpg)
+ - [About section background](http://images.tritondigitalcms.com/6616/sites/395/2019/01/09164809/GettyImages-2636592.jpg)
+
+Band member images which I have used are linked here:
+ - [Freddie Mercury](https://media.them.us/photos/5afc954001bb27001030e020/master/w_1280,c_limit/GettyImages-75509443.jpg)
+ - [Roger Taylor](https://www.udiscovermusic.com/wp-content/uploads/2019/04/Queen-Roger-Taylor.jpg)
+ - [Brian May](https://images.radiox.co.uk/images/34052?width=5261&crop=16_9&signature=yMKBDrExPGdpdgarU1jm83FLJjk=)
+ - [John Deacon](http://www.queenonline.com/global/assets/modules/site/images/band/john_bio3.jpg)
 
 For the gallery section, I was originally going to use Bootstrap 4's carousel feature, however after complications I encountered whilst modifying the CSS, I decided to use [W3.CSS's slideshow feature](https://www.w3schools.com/w3css/w3css_slideshow.asp) instead. Images used for this slideshow are referenced here:
  - [Slide 1](http://www.queenonline.com/global/assets/modules/site/images/gallery/1975_001.jpg)
