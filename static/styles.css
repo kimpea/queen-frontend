@@ -291,7 +291,7 @@ table a:hover {
 #forms {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-image: url("http://www.asset1.net/tv/pictures/show/queen-live-in-budapest/Queen-Live-In-Budapest-02-16x9-1.jpg");
+    background-image: url("/static/img/forms_bg.jpg");
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
