@@ -296,16 +296,6 @@ table a:hover {
     background-size: cover;
 }
 
-/*-- Subscribe Section --*/
-
-#subscribe {
-    background-color: black;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*-- Media Queries (ordered by device screen size) --*/
 
 /*-- Smaller Mobile Screens --*/
