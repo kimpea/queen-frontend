@@ -301,7 +301,59 @@ table a:hover {
 #contact-form {
     background-color: #000;
     color: #fafafa;
+    margin-bottom: 1rem;
     padding: 2rem;
+    font-size: 1.25rem;
+}
+
+#subscribe-form {
+    background-color: #000;
+    color: #fafafa;
+    padding: 2rem;
+    font-size: 1.25rem;
+}
+
+/*-- Footer --*/
+
+footer {
+    background-color: #000;
+    color: #fafafa;
+}
+
+.footer-row {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.social-links a {
+    text-align: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #000;
+    border-radius: 100%;
+    line-height: 3.5rem;
+    font-size: 25px;
+    color: #fafafa;
+}
+
+.social-links .fa-facebook-f:hover {
+    color: #4267b2;
+}
+
+.social-links .fa-twitter:hover {
+    color: #38A1F3;
+}
+
+.social-links .fa-youtube:hover {
+    color: #ED3833;
+}
+
+.social-links .fa-spotify:hover {
+    color: #1DB954;
+}
+
+.social-links a:active {
+    color: #fafafa;
 }
 
 /*-- Media Queries (ordered by device screen size) --*/
