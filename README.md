@@ -59,6 +59,28 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
  - Social media links - This will allow User 7 to find the band on Facebook and Youtube, as well as Twitter and Spotify.
  - List of upcoming events - User 8 is able to see where Queen is going to perform next and also buy their latest album.
 
+### Features Left To Implement
+ - Backend functionality could be considered for the contact form and subscription form in future builds of the application.
+ - Back-to-top button could be implemented with JavaScript in the future so that users can return to the top of the website easily.
+
+## Technologies Used
+- HTML
+    - This project uses **HTML** to build the foundation of the web application and includes links to Bootstrap 4, Bootstrap JS, CSS, and Font Awesome.
+- CSS
+    - This project uses **CSS** to style the features of the web application, including the header, sections and footer. It is also used to modify Bootstrap 4 styles.
+- [Bootstrap 4](https://getbootstrap.com/)
+    - This project uses **Bootstrap 4** to speed up the development process and provide a clear, consistent layout for the website. I have also used Bootstrap's 'Journal' theme (and modified it with my own CSS).
+- [Youtube](https://www.youtube.com/)
+    - This project uses **Youtube** for the embedded video in the Cinema section.
+- [Spotify Play Button](https://developer.spotify.com/documentation/widgets/generate/play-button/)
+    - This project uses **Spotify Play Button** for the embedded audio clips in the Auditorium section.
+- [JavaScript](https://www.javascript.com/)
+    - This project uses **JavaScript** to provide the functionality for the W3.CSS Slideshow feature.
+- [Font Awesome](https://fontawesome.com/)
+    - This project uses **Font Awesome** to provide icons for the application.
+- [Wireframes.cc](https://wireframe.cc/)
+    - This project uses **Wireframes CC** for the Skeleton and Surface Plan, providing desktop, tablet and mobile views of the web application.
+
 # Credits, Acknowledgements and Media
 
 The Queen logo which I used for the navbar and home section can be found [here](https://upload.wikimedia.org/wikipedia/commons/7/74/Queen_Logo.png).
