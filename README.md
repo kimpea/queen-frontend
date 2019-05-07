@@ -133,7 +133,18 @@ I have tested out the website on both Google Chrome and Mozilla Firefox - the we
 
 ### Code Validation
 
-After using the [official HTML code validation service](https://validator.w3.org/), a few errors had been found. The validator states that the allowtransparency and frameborder attributes for the iframe element are obselete, however, removing these makes the appearance of the audio clips and embedded video look inconsistent and untidy - as a result of this, I have left these attributes alone. The [officla CSS validation service](https://jigsaw.w3.org/css-validator/) revealed no errors within my CSS code. 
+After using the [official HTML code validation service](https://validator.w3.org/), a few errors had been found. The validator states that the allowtransparency and frameborder attributes for the iframe element are obselete, however, removing these makes the appearance of the audio clips and embedded video look inconsistent and untidy - as a result of this, I have left these attributes alone. The [officla CSS validation service](https://jigsaw.w3.org/css-validator/) revealed no errors within my CSS code.
+
+### Bugs 
+
+ - White space to the right of the viewport - this has been fixed with hidden overflow in my CSS code. 
+
+## Deployment
+
+### To run this locally...
+
+1. Create a new workspace in Cloud9 with a workspace name and description.
+2. Clone the project with either 
 
 # Credits, Acknowledgements and Media
 
