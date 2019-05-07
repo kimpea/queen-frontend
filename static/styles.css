@@ -27,7 +27,7 @@ nav img {
 
 #home {
     padding-top: 4rem;
-    background-image: url("/static/img/queen_bg.png");
+    background-image: url("/queen-frontend/static/img/queen_bg.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
