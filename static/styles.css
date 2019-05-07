@@ -494,6 +494,10 @@ footer {
     #about p {
         font-size: 1rem;
     }
+    /*-- Gallery --*/
+    .w3-content {
+        width: 50%;
+    }
 }
 
 
