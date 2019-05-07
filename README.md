@@ -131,6 +131,10 @@ Below are scenarios which a user may experience while navigating the website. Th
 
 I have tested out the website on both Google Chrome and Mozilla Firefox - the website functions well on both web browsers. I have used Chrome's Developer Tools and Firefox's Developer Tools to try out the website on different device screen sizes, from mobile to desktop. The website functions well on most screen sizes, especially for the iPhone 6/7/8 and iPad. I have also tested out the website on an Asus Zenfone 3 Max and an Amazon Kindle Fire - as expected, it functions normally.
 
+### Code Validation
+
+After using the [official HTML code validation service](https://validator.w3.org/), a few errors had been found. The validator states that the allowtransparency and frameborder attributes for the iframe element are obselete, however, removing these makes the appearance of the audio clips and embedded video look inconsistent and untidy - as a result of this, I have left these attributes alone. The [officla CSS validation service](https://jigsaw.w3.org/css-validator/) revealed no errors within my CSS code. 
+
 # Credits, Acknowledgements and Media
 
 The Queen logo which I used for the navbar and home section can be found [here](https://upload.wikimedia.org/wikipedia/commons/7/74/Queen_Logo.png).
