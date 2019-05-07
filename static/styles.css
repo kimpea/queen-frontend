@@ -287,6 +287,10 @@ table a:hover {
     margin-top: 3rem;
 }
 
+.w3-content img {
+    width: 100%;
+}
+
 /*-- Contact Section --*/
 
 #forms {
@@ -459,6 +463,11 @@ footer {
     #about p {
         font-size: 1rem;
     }
+    /*-- Gallery --*/
+    .w3-large {
+        font-size: 12px !important;
+        padding: 5px !important;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
@@ -498,6 +507,10 @@ footer {
     /*-- Gallery --*/
     .w3-content {
         width: 50%;
+    }
+    .w3-large {
+        font-size: 12px !important;
+        padding: 5px !important;
     }
 }
 
