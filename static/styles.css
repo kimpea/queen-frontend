@@ -288,12 +288,20 @@ table a:hover {
 
 /*-- Contact Section --*/
 
-#contact {
-    background-color: brown;
-    height: 100%;
+#forms {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-image: url("http://www.asset1.net/tv/pictures/show/queen-live-in-budapest/Queen-Live-In-Budapest-02-16x9-1.jpg");
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#contact-form {
+    background-color: #000;
+    color: #fafafa;
+    padding: 2rem;
 }
 
 /*-- Media Queries (ordered by device screen size) --*/
