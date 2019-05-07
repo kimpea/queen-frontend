@@ -60,6 +60,7 @@ Background images that I have used are linked here:
  - [Home section background](https://www.rollingstone.com/wp-content/uploads/2018/06/queen-news-of-the-world-opener-c5bda6ed-0bdf-42c0-8d93-7b29ec5c4259.jpg?crop=900:600&width=440)
  - [Music video section background](https://cdn.cnn.com/cnn/interactive/2018/11/opinions/queen-live-aid-cnnphotos/media/01.jpg)
  - [About section background](http://images.tritondigitalcms.com/6616/sites/395/2019/01/09164809/GettyImages-2636592.jpg)
+ - [Forms section background](http://www.asset1.net/tv/pictures/show/queen-live-in-budapest/Queen-Live-In-Budapest-02-16x9-1.jpg)
 
 Band member images which I have used are linked here:
  - [Freddie Mercury](https://media.them.us/photos/5afc954001bb27001030e020/master/w_1280,c_limit/GettyImages-75509443.jpg)
