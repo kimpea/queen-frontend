@@ -187,7 +187,7 @@ hr {
 }
 
 table {
-    font-size: 24px;
+    font-size: 1.25rem;
 }
 
 table td {
@@ -229,7 +229,7 @@ table a:hover {
 .album-list ul {
     margin-top: 2rem;
     color: #fafafa;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     list-style-type: none;
     padding: 0;
 }
@@ -257,6 +257,10 @@ table a:hover {
     width: 100%;
 }
 
+#about p {
+    font-size: 1.25rem;
+}
+
 .member-description {
     padding: 0px 10px 0px 0px;
 }
@@ -280,16 +284,6 @@ table a:hover {
 .gallery-heading {
     color: #fafafa;
     margin-top: 3rem;
-}
-
-.carousel, .carousel img {
-    width: 800px !important;
-    height: auto !important;
-}
-
-.carousel-caption {
-    background-color: #000;
-    padding: 5px !important;
 }
 
 /*-- Contact Section --*/
@@ -336,7 +330,7 @@ table a:hover {
         padding: 0;
     }
     /*-- Shows --*/
-    table {
+    table td {
         font-size: 14px;
     }
     .album-list ol {
@@ -346,11 +340,6 @@ table a:hover {
     /*-- About --*/
     .about-col img {
         width: 75%;
-    }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 16rem !important;
-        height: auto !important;
     }
 }
 
@@ -371,7 +360,7 @@ table a:hover {
         font-size: 14px;
     }
     /*-- Shows --*/
-    table {
+    table td {
         font-size: 14px;
     }
     .album-list ol {
@@ -381,11 +370,6 @@ table a:hover {
     /*-- About --*/
     .about-col img {
         width: 75%;
-    }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 10rem !important;
-        height: auto !important;
     }
 }
 
@@ -421,11 +405,6 @@ table a:hover {
     .about-col img {
         width: 75%;
     }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 16rem !important;
-        height: auto !important;
-    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 896px) and (orientation: landscape){
@@ -459,11 +438,6 @@ table a:hover {
     .about-col img {
         width: 75%;
     }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 20rem !important;
-        height: auto !important;
-    }
 }
 
 
@@ -483,11 +457,6 @@ table a:hover {
     .intro-button a {
         margin-top: 9rem;
         font-size: 2rem;
-    }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 36rem !important;
-        height: auto !important;
     }
 }
 
@@ -513,11 +482,6 @@ table a:hover {
     .album-list ul {
         font-size: 16px;
     }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 36rem !important;
-        height: auto !important;
-    }
 }
 
 
@@ -530,11 +494,6 @@ table a:hover {
     .intro-button a {
         margin-top: 9rem;
     }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 36rem !important;
-        height: auto !important;
-    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1337px) and (orientation : landscape){
@@ -546,10 +505,5 @@ table a:hover {
     .intro-button a {
         margin-top: 4rem;
         font-size: 2rem;
-    }
-    /*-- Gallery --*/
-    .carousel, .carousel img {
-        width: 36rem !important;
-        height: auto !important;
     }
 }
