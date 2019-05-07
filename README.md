@@ -1,4 +1,4 @@
-# Queen - User Centric Frontend Development Website
+# [Queen](https://kimpea.github.io/queen-frontend/#home) - User Centric Frontend Development Website
 
 ## UX
 
@@ -150,7 +150,9 @@ After using the [official HTML code validation service](https://validator.w3.org
 
 ### Production vs. Deployed
 
-Whilst the website was in production mode, the sources for all images did not require the /queen-frontend/, however, in the deployed version, for the images to appear in GitHub pages, I had to place /queen-frontend/ in front of all images sources. I also had to do the same for the external JavaScript file. 
+Whilst the website was in production mode, the sources for all images did not require the /queen-frontend/, however, in the deployed version, for the images to appear in GitHub pages, I had to place /queen-frontend/ in front of all images sources. I also had to do the same for the external CSS and JavaScript files. 
+
+The live demo of the website can be found [here](https://kimpea.github.io/queen-frontend/#home).
 
 # Credits, Acknowledgements and Media
 
