@@ -87,43 +87,43 @@ Wireframes have been created with [wireframe.cc](https://wireframe.cc/). I have 
 
 Below are scenarios which a user may experience while navigating the website. These have been used to manually test the website's features and sections.
 
-#### 1. Home
+1. Home
     1. Click on 'Home' in the navigation bar and be directed to the 'Home' section.
     2. Optionally, click on the 'Queen' logo in the navigation bar and be directed to the 'Home' section.
 
-#### 2. Auditorium 
+2. Auditorium 
     1. Click on 'Auditorium' in the navigation bar and be taken to the 'Auditorium' section on the website.
     2. Press the play button on any audio clip and listen to a sample of the song you have chosen. 
 
-#### 3. Cinema
+3. Cinema
     1. Click on 'Cinema' in the navigation bar and be taken to the 'Cinema' section on the website.
     2. Press the play button on the embedded video and watch the live performance of Another One Bites The Dust.
     3. Control the volume, enter fullscreen mode and also change quality settings when clicking on the cog symbol on the video player.
 
-#### 4. Shows
+4. Shows
     1. Click on 'Shows' in the navigation bar and be taken to the 'Shows' section on the website.
     2. Click on any of the tabs for the upcoming tour dates and see the dates and locations for each show. 
     3. Click on 'BUY TICKET' for any show and be directed to a link where the user can purchase a ticket for the show.
     4. Optionally, from the 'Home' section, click on 'TICKETS AVAILABLE NOW' button and be taken to the 'Shows' section.
     5. Click on 'AVAILABLE NOW' and be directed to a website where the user can buy the album on display.
 
-#### 5. About
+5. About
     1. Click on 'About' in the navigation bar and be taken to the 'About' section on the website.
     2. Read the description under 'From Smile to Queen...'
     3. Click on any of the band member names and read the content in the dropdown. 
     4. Click on the link given in any of the band member dropdowns and be taken to a Wikipedia page displaying more information on the chosen band member.
 
-#### 6. Gallery
+6. Gallery
     1. Click on 'Gallery' in the navigation bar and be taken to the 'Gallery' section on the website. 
     2. Click on either the left or right indicators to see images of the band, along with the year that each picture was taken.
 
-#### 7. Contact & Subscribe
+7. Contact & Subscribe
     1. Click on 'Contact' in the navigation bar and be taken to the 'Contact' section on the website. 
     2. Fill in the contact form and click 'Submit' - there is no backend functionality to the form yet (this is something to consider for future versions of the website).
     3. Fill in the subscription form and click 'Subscribe' - there is no backend functionality to the form yet (this is something to consider for future versions of the website).
     4. If any fields are missing, be advised that the field is required.
 
-#### 8. Social media links
+8. Social media links
     1. Click on 'Contact' in the navigation bar and be taken to the last section of the website. Social media links are in the footer.
     2. Click on the Facebook, Twitter, YouTube and Spotify icons and be taken to the specific links for each social platform. 
 
